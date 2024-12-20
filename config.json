@@ -1,0 +1,108 @@
+{
+    "log_file_path": "C:/Users/mseam/Downloads/quarm/TAKP PC V2.1c/TAKP PC V2.1/eqlog_Mckook_pq.proj.txt",
+    "spells": [
+        {
+            "spell_name": "Dooming Darkness",
+            "icon_path": "C:\\Users\\mseam\\OneDrive\\Documents\\coding\\pyscripts\\eqdmgOverlay\\resources\\icons\\doom_darkness.png",
+            "regex_pattern": "(\\w+(?:\\s+\\w+)*) has taken (\\d+) damage from your Dooming Darkness\\.",
+            "message_template": null,
+            "category": "damage"
+        },
+        {
+            "spell_name": "Cascading Darkness",
+            "icon_path": "C:\\Users\\mseam\\OneDrive\\Documents\\coding\\pyscripts\\eqdmgOverlay\\resources\\icons\\cascading_darkness.png",
+            "regex_pattern": "(\\w+(?:\\s+\\w+)*) has taken (\\d+) damage from your Cascading Darkness\\.",
+            "message_template": null,
+            "category": "damage"
+        },
+        {
+            "spell_name": "Spirit of Wolf",
+            "icon_path": "C:\\Users\\mseam\\OneDrive\\Documents\\coding\\pyscripts\\eqdmgOverlay\\resources\\icons\\spirit_wolf.png",
+            "regex_pattern": "You feel the spirit of wolf enter you.",
+            "message_template": "Spirit of the wolf",
+            "category": "healing"
+        },
+        {
+            "spell_name": "Vampiric Curse",
+            "icon_path": "C:\\Users\\mseam\\OneDrive\\Documents\\coding\\pyscripts\\eqdmgOverlay\\resources\\icons\\vamp_curse.png",
+            "regex_pattern": "(\\w+(?:\\s+\\w+)*) has taken (\\d+) damage from your Vampiric Curse\\.",
+            "message_template": null,
+            "category": "damage"
+        },
+        {
+            "spell_name": "Invoke Fear",
+            "icon_path": "C:\\Users\\mseam\\OneDrive\\Documents\\coding\\pyscripts\\eqdmgOverlay\\resources\\icons\\invoke_fear.png",
+            "regex_pattern": "(\\w+(?:\\s+\\w+)*) has taken (\\d+) damage from your Invoke Fear\\.",
+            "message_template": null,
+            "category": "crowd_control"
+        },
+        {
+            "spell_name": "Envenomed Bolt",
+            "icon_path": "C:\\Users\\mseam\\OneDrive\\Documents\\coding\\pyscripts\\eqdmgOverlay\\resources\\icons\\Envenomed_Bolt.png",
+            "regex_pattern": "(\\w+(?:\\s+\\w+)*) has taken (\\d+) damage from your Envenomed Bolt\\.",
+            "message_template": null,
+            "category": "damage"
+        },
+        {
+            "spell_name": "Bond of Death",
+            "icon_path": "C:\\Users\\mseam\\OneDrive\\Documents\\coding\\pyscripts\\eqdmgOverlay\\resources\\icons\\bond_of_death.png",
+            "regex_pattern": "(\\w+(?:\\s+\\w+)*) has taken (\\d+) damage from your Bond of Death\\.",
+            "message_template": null,
+            "category": "damage"
+        },
+        {
+            "spell_name": "Screaming Terror",
+            "icon_path": "C:\\Users\\mseam\\OneDrive\\Documents\\coding\\pyscripts\\eqdmgOverlay\\resources\\icons\\screaming_terror.png",
+            "regex_pattern": "(\\w+(?:\\s+\\w+)*) begins to scream\\.\\s*",
+            "message_template": "{monster_name} was mezzed!",
+            "category": "crowd_control"
+        }
+    ],
+    "start_positions": {
+        "damage": [
+            1737,
+            173
+        ],
+        "crowd_control": [
+            1965,
+            170
+        ],
+        "healing": [
+            2174,
+            171
+        ]
+    },
+    "spell_categories": {
+        "damage": {
+            "icon_width": 24,
+            "icon_height": 24,
+            "font_size": 11,
+            "text_color": "blue",
+            "monster_name_font_size": 24,
+            "monster_name_text_color": "white"
+        },
+        "crowd_control": {
+            "icon_width": 24,
+            "icon_height": 24,
+            "font_size": 11,
+            "text_color": "green",
+            "monster_name_font_size": 24,
+            "monster_name_text_color": "white"
+        },
+        "healing": {
+            "icon_width": 24,
+            "icon_height": 24,
+            "font_size": 11,
+            "text_color": "yellow",
+            "monster_name_font_size": 12,
+            "monster_name_text_color": "white"
+        }
+    },
+    "animation_duration": 2500,
+    "float_distance": 150,
+    "padding": 10,
+    "total_font_ratio": 0.7,
+    "total_color": "red",
+    "opacity": 1.0,
+    "font_file": "resources/fonts/PressStart2P-Regular.ttf"
+}
